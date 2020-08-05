@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rambla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Rambla', sans-serif;
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Kalam', cursive;
+
+*/
+header {
+  height:100px !important;
+  background-color:#fff;
+  border-bottom: 2px black solid;
+  margin:auto;
+  display:block;
+  width:100%;
+  margin-top:0px;
+}
+header h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size:40px;
+  font-weight:300;
+  margin-left:200px;
+  width:200px;
+  margin-right:0px;
+  display:inline-block;
+  margin-top:26px;
+}
+nav {
+  z-index:1;
+  float:right;
+}
+header ul {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  font-size:15px;
+  float:right;
+  margin-right:200px;
+  margin-top:40px;
+}
+#navigation {
+  display:inline-block;
+}
+header li {
+  display:inline;
+  padding:10px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header a:hover {
+  color: #0fb8b8;
+}
+
+.submenu {
+  margin-top:10px;
+  margin-left:20px;
+  position:absolute;
+  background-color:white;
+  padding-left:none !important;
+  width:100px;
+  padding-right:40px;
+  border: 2px black solid;
+  border-radius:5px 5px;
+  box-shadow:2px 2px 2px;
+  display:none;
+}
+.submenu li {
+  text-align:center;
+  display:list-item;
+  list-style:none;
+  padding:10px;
+}
+.submenu li:hover {
+  color:#0fb8b8;
+}
+.active {
+  display:block;
+}
+body {
+  margin:auto;
+}
+#membersmain {
+  width:100%;
+  height:500px !important;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  border-bottom: 2px solid black;
+}
+#membersmain h2 {
+  font-family: 'Kalam', cursive;
+  font-size: 100px;
+  text-align:center !important;
+  margin:0px;
+  color:black;
+  padding-top:188.5px;
+}
+#tablelist {
+  margin:auto;
+  width:60%;
+  margin-top:20px;
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  border-radius:20px;
+}
+#tablelist h3 {
+  text-align:center;
+  color:White;
+  font-family: 'Rambla', sans-serif;
+  font-size:60px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#tablelist table {
+}
+thead {
+  margin:auto;
+  width:100%;
+  padding:20px;
+}
+th {
+  font-size:40px;
+  padding:20px;
+  width:570.9px;
+  text-align:center !important;
+  margin-left:20px !important;
+  font-family: 'Baloo Da 2', cursive;
+  color:white;
+  background-color:rgb(255, 255, 255, .2);
+
+}
+tr td {
+  padding:15px;
+  color:white;
+  font-family: 'Baloo Da 2', cursive;
+  font-size:25px;
+  padding-left:50px !important;
+}
+tr a {
+  padding:15px;
+  color:white;
+  font-family: 'Baloo Da 2', cursive;
+  font-size:25px;
+  text-align:left;
+  text-decoration:none;
+  padding-left:50px !important;
+}
+tr a:hover {
+  color:#7579ff;
+}
+#discord {
+  width:50%;
+  display:inline-block;
+}
+#discord h3 {
+  font-family: 'Baloo Da 2', cursive;
+  font-size:60px;
+  margin:auto;
+  text-align:center;
+  border-bottom:2px solid black;
+  width:35%;
+}
+#discord iframe {
+  margin-top:10px !important;
+  margin:10%;
+}
+#tiktok {
+  width:50%;
+  display:inline-block;
+  float:right;
+}
+#tiktok h3 {
+  font-family: 'Baloo Da 2', cursive;
+  font-size:60px;
+  margin:auto;
+  text-align:center;
+  border-bottom:2px solid black;
+  width:35%;
+}
